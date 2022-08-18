@@ -133,7 +133,6 @@ private let blacklistedCharacters: CharacterSet = {
   blacklist.formUnion(with: CharacterSet.symbols)
   blacklist.formUnion(with: CharacterSet.illegalCharacters)
   blacklist.formUnion(with: CharacterSet.controlCharacters)
-  blacklist.removeCharacters(in: "_")
 
   // Emoji ranges, roughly based on http://www.unicode.org/Public/emoji/1.0//emoji-data.txt
   [

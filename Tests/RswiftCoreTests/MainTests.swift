@@ -36,7 +36,7 @@ class MainTests: XCTestCase {
     "PRFXMyClass": "prfxMyClass",
     "NSSomeThing": "nsSomeThing",
     "MyClass": "myClass",
-    "PRFX_MyClass": "prfx_MyClass",
+    "PRFX_MyClass": "prfxMyClass",
     "PRFX-myClass": "prfxMyClass",
     "123NSSomeThing": "nsSomeThing",
     "PR123FXMyClass": "pr123FXMyClass"
